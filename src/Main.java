@@ -1,7 +1,9 @@
 import ui.QuizFrame;
 
-public class Main{
+import javax.swing.SwingUtilities;
+
+public class Main {
     public static void main(String[] args) {
-        new QuizFrame();
+        SwingUtilities.invokeLater(QuizFrame::new);
     }
 }
