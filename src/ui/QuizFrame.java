@@ -48,6 +48,7 @@ public class QuizFrame extends JFrame {
         setResizable(false);
 
         getContentPane().setBackground(new Color(245, 247, 250));
+        
     }
 
     private void initializeComponents() {
